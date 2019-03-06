@@ -1,0 +1,329 @@
+/*全局样式*/
+.all{
+	width:100%;
+	height:100%;
+}
+/*头部样式开始*/
+.head{
+	width:100%;
+	height:100px;
+}
+.head .headTop{
+	width:1040px;
+	height:100px;
+	margin: 0 auto;
+}
+.head .headTop img{
+	float: left;
+	cursor: pointer;
+}
+.head .headTop a:hover{
+	color:#f60;
+}
+.head .headTop .right{
+	float: right;
+	width: 824px;
+	height:62px;
+	margin-top:37px;
+}
+.head .headTop .right p{
+	width:824px;
+	height:25px;
+	border:1px solid #fecd66;
+	background: #fefff1;
+	line-height: 25px;
+	text-align: center;
+}
+.head .headTop .right a{
+	float: right;
+	margin-top:10px;
+}
+/*中间部分样式开始*/
+.con{
+	width:100%;
+	height:570px;
+	background: #9878d8;
+}
+.con .conD{
+	width:1030px;
+	height:570px;
+	margin:0 auto;
+}
+.con .conD img{
+	margin-top:38px;
+	float: left;}
+.con .conD .conRight{
+	float: right;
+	width: 365px;
+	height: 413px;
+	background: #fff;
+	margin-top:58px;
+	position: relative;
+}
+.con .conD .conRight .ringhtT{
+	width:365px;
+	height:372px;
+	color:#eee;
+}
+.con .conD .conRight .ringhtT span{
+	height: 50px;
+	display: inline-block;
+	font-size: 16px;
+	text-align: center;
+	line-height: 50px;
+	color:#000;
+	margin-left: 70px;
+	cursor: pointer;
+}
+.con .conD .conRight .ringhtT span:last-child{
+	margin-left: 45px;
+}
+.active{
+	color:#f60 !important;
+	border-bottom:3px solid #f60;
+}
+.con .conD .conRight .ringhtT .rightL{
+	width:365px;
+	height: 321px;
+	position: absolute;
+	top:52px;
+	left: 0;
+}
+ .con .conD .conRight .ringhtT .rightL img{
+	margin:60px 0 0 110px;
+}
+.con .conD .conRight .ringhtT .rightL img:nth-child(2){
+	position: absolute;
+	top:-30px;
+	left:100px;
+	display: none;
+}
+.con .conD .conRight .ringhtT .rightL .rightLa{
+	width:365px;
+	height:250px;
+}
+.con .conD .conRight .ringhtT .rightL .rightLc{
+	width:365px;
+	height:20px;
+	text-align: center;
+}
+.con .conD .conRight .ringhtT .rightL .rightLc p{
+	color:#000;
+}
+.con .conD .conRight .ringhtT .rightL .rightLc a{
+	color:#f60;
+}
+ .con .conD .conRight .ringhtT .rightM{
+ 	margin:0 auto;
+ 	margin-top:10px ;
+	width:365px;
+	height: 311px;
+	position: absolute;
+	background: #fff;
+	top:52px;
+	left: 0;
+}
+.con .conD .conRight .ringhtT .rightM .rightMa{
+	height:110px;
+}
+.con .conD .conRight .ringhtT .rightM .rightTop{
+	color:#f00;
+	position: absolute;
+	top:0;
+	left:90px;
+	visibility: hidden;
+}
+.con .conD .conRight .ringhtT .rightM .input1{
+	width:80%;
+	height:40px;
+	border:1px solid #ccc;
+	margin-top:40px;
+	margin-left: 30px;
+	position: relative;
+	}
+.con .conD .conRight .ringhtT .rightM span{
+	position: absolute;
+	right:0;
+	top:-5px;
+	display: none;
+}
+.con .conD .conRight .ringhtT .rightM .rightMb{
+	width:80%;
+	height:100px;
+	margin-left: 30px;
+	margin-top:20px;
+	position: relative;
+}
+.con .conD .conRight .ringhtT .rightM .rightMb h4,h5{
+	display: inline-block;
+	width:130px;
+	height:30px;
+	float: left;
+	line-height: 30px;
+	color:#000;
+	font-weight:400;
+	padding-left:18px ;
+		cursor: pointer;
+}
+.con .conD .conRight .ringhtT .rightM .rightMb h4:hover{
+	color:#f60;
+}
+.con .conD .conRight .ringhtT .rightM .rightMb button:hover{
+	background: #f60;
+}
+.con .conD .conRight .ringhtT .rightM .rightMb h5{
+	float: right;
+	text-align: right;
+}
+.con .conD .conRight .ringhtT .rightM .rightMb h4::before{
+	content:"";
+	width:13px;
+	height: 15px;
+	background-image: url(../images/login/shouji.png);
+	display: inline-block;
+	margin-right: 2px;
+	position: absolute;
+	top:7px;left:0px;
+}
+.con .conD .conRight .ringhtT .rightM .rightMb button{
+	width:100%;
+	height:40px;
+	background:#f70;
+	color:#fff;
+	font-size: 24px;
+	border:none;
+	margin-top:5px ;
+	cursor:pointer;
+}
+.con .conD .conRight .ringhtT .rightM .rightMb p{
+	width:100%;
+	height:30px;
+	color:#000;
+	font-size: 12px;
+	border:none;
+	text-align: center;
+	margin-top:10px ;
+	cursor: pointer;
+}
+.con .conD .conRight .ringhtT .rightM .rightMb p:hover,
+.con .conD .conRight .ringhtT .rightM .rightMb h5:hover,
+.con .conD .conRight .rightB .rightB2 a:hover,
+.con .conD .conRight .ringhtT .rightL .rightLc p:nth-child(2):hover{
+	text-decoration:underline;
+	color:#f60;
+}
+.con .conD .conRight .ringhtT .rightM .input1 img{
+	position: absolute;
+	top: -30px;
+	left: 6px;
+	width: 22px;
+	height: 22px;
+}
+.con .conD .conRight .ringhtT .rightM .input1 input{
+	width:250px;
+	height:38px;
+	float: right;
+	border:none;
+}
+.con .conD .conRight .ringhtT .rightM .input1:last-child{
+	margin-top:20px;
+}
+.con .conD .conRight .rightB{
+	width:365px;
+	height: 41px;
+}
+.con .conD .conRight .rightB .rightB1 span{
+	width:80px;
+	border:1px solid #ccc;
+	display: inline-block;
+	margin-top:8px;
+}
+.con .conD .conRight .rightB .rightB1{
+	height:13px;
+	width: 80%;
+	margin:0 auto;
+	position: relative;
+	color:#ccc;
+	}
+.con .conD .conRight .rightB .rightB2{
+	width:96%;
+	height: 29px;
+	margin:0 auto;
+	position: absolute;
+	bottom: 0px;
+	left: 8px;
+}
+.con .conD .conRight .rightB .rightB2 a{
+	width:19%;
+	height:26px;
+	float: left;
+	line-height: 26px;	
+	text-align: center;
+	cursor: pointer;
+}
+.con .conD .conRight .rightB .rightB2 a i{
+	margin-right:3px;
+}
+.con .conD .conRight .rightB .rightB2 a .icon-qq{
+	color: #72abe1;
+}
+.con .conD .conRight .rightB .rightB2 a .icon-wei_xing{
+	color:#51c332;
+}
+.con .conD .conRight .rightB .rightB2 a .icon-yi{
+	color: #008ad9;
+}
+.con .conD .conRight .rightB .rightB2 a .icon-weibo{
+	color: #f11a04;
+}
+.con .conD .conRight .rightB .rightB2 a span{
+	color:#ccc;
+}
+.con .conD .conRight .rightB span:first-child{
+	float: left;	
+}
+.con .conD .conRight .rightB span:last-child{
+	float: right;
+}
+.con .conD .conRight .rightB p{
+	float: left;
+	margin-left:14px;
+}
+/*尾部部分开始*/
+.footer{
+	width:100%;
+	height: 100%;
+}
+.footerN{
+	width:1030px;
+	height: 150px;
+	margin:0 auto;
+}
+.footerN .footerNa{
+	width:806px;
+	height: 60px;
+	margin:0 auto;
+}
+.footerN .footerNa p{
+	width:806px;
+	height: 14px;
+	text-align: center;
+	color:#444;
+}
+.footerN .footerNa a{
+	padding: 10px 10px 0 10px;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+}
+.footerN .footerNa a:hover{
+	color:#f60;
+	text-decoration: underline;
+}
+.footerN p{margin-top:16px; color:#ccc; text-align: center;}
+.footerN .footerNb{
+	width:400px;
+	height:26px;
+	margin:0 auto;
+	margin-top:14px;
+}.footerN .footerNb img{margin-left:20px;}
